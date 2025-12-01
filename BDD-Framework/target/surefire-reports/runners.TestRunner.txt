@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.044 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["Create a new learning folder", "Learning Folder Management"](1) -- Time elapsed: 0.093 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.FolderManage.the_user_is_on_the_page(FolderManage.java:9)
+	at ✽.the user is on the "Learning Folders" page(file:///C:/Users/moham/eclipse-workspace/BDD-Framework/features/FolderManagement.feature:4)
+
+runners.TestRunner.runScenario["Delete a learning folder", "Learning Folder Management"](2) -- Time elapsed: 0.040 s <<< FAILURE!
+io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.FolderManage.the_folder_exists(FolderManage.java:27)
+	at ✽.the folder "Java Basics" exists(file:///C:/Users/moham/eclipse-workspace/BDD-Framework/features/FolderManagement.feature:9)
+

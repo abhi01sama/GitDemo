@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-25T16:39:02 IST" name="Surefire suite" finished-at="2025-11-25T16:39:03 IST" duration-ms="649">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7ff95560]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-25T16:39:02 IST" name="Surefire test" finished-at="2025-11-25T16:39:03 IST" duration-ms="649">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@7ff95560]" started-at="2025-11-25T16:39:02 IST" name="setUpClass" finished-at="2025-11-25T16:39:02 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e4de19b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7ff95560]" started-at="2025-11-25T16:39:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-25T16:39:03 IST" duration-ms="85" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new learning folder"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Learning Folder Management"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinitions.FolderManage.the_user_is_on_the_page(FolderManage.java:9)
+at ✽.the user is on the "Learning Folders" page(file:///C:/Users/moham/eclipse-workspace/BDD-Framework/features/FolderManagement.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7ff95560]" started-at="2025-11-25T16:39:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-25T16:39:03 IST" duration-ms="27" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a learning folder"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Learning Folder Management"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinitions.FolderManage.the_folder_exists(FolderManage.java:27)
+at ✽.the folder "Java Basics" exists(file:///C:/Users/moham/eclipse-workspace/BDD-Framework/features/FolderManagement.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@7ff95560]" started-at="2025-11-25T16:39:03 IST" name="tearDownClass" finished-at="2025-11-25T16:39:03 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
